@@ -4,6 +4,8 @@
 }
 p{
   font-family: 'Molengo', sans-serif;
+  line-height: 30px;
+  font-size: 1.2rem;
 }
 /************TITLLE SECTION**************/
 /* navbar */
@@ -28,7 +30,7 @@ p{
 }
 
 .container-fluid {
-  padding-top: 25%;
+  padding-top: 20%;
 }
 
 .big-heading {
@@ -50,11 +52,15 @@ p{
 }
 
 .title-img {
-  width: 60%;
+  width: 65%;
   position: absolute;
   bottom: 10px;
   margin-left: 60px;
   border-radius: 25px;
+}
+
+.lg-col-6{
+  padding: 0;
 }
 
 /****************SECOND SECTION***************/
@@ -62,6 +68,24 @@ p{
 #second-section{
   background-color: #caf7e3;
   padding: 10%;
+}
+
+.moutain-img{
+  width: 20%;
+  position: relative;
+  left: 85%;
+}
+
+/********************FOOTER**************/
+#footer{
+  color: #424642;
+  background-color: #caf7e3;
+}
+
+.copyright{
+  padding: 1%;
+  position: relative;
+  left: 40%;
 }
 
 /**************************MEDIA QUERY*****************************/
@@ -75,6 +99,9 @@ p{
    font-size: 3rem;
    margin-bottom: 40px;
  }
+ .container-fluid{
+   padding:15%;
+ }
 }
 
 @media (max-width: 1000px){
@@ -84,8 +111,32 @@ p{
   }
 }
 
-@media (max-width: 910px){
+@media (max-width: 985px){
   .title-img{
-    width: 30%;
+    width: 24%;
+  }
+}
+
+@media (max-width: 830px){
+ .title-img{
+   width: 50%;
+   position: relative;
+   left: 12%;
+ }
+ .big-heading{
+   position: static;
+ }
+ .title-footer{
+  top: 90px;
+  left: 90px;
+ }
+ .container-fluid {
+   padding-top: 0;
+ }
+}
+
+@media (max-width:645px) {
+  .title-footer{
+    top: 130px;
   }
 }
