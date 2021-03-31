@@ -70,11 +70,33 @@ p{
   padding: 10%;
 }
 
-.moutain-img{
-  width: 20%;
-  position: relative;
+.family-intro-img{
+  width: 10%;
+  position: absolute;
   left: 85%;
 }
+
+.myButton {
+	background-color:#f5c993;
+	border-radius:20px;
+	border:1px solid #ffe3b2;
+	display:inline-block;
+	cursor:pointer;
+	color:#16171a;
+	font-family:Arial;
+	font-size:14px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.myButton:hover {
+	background-color:#d19a58;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 /********************FOOTER**************/
 #footer{
