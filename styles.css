@@ -70,10 +70,8 @@ p{
   padding: 10%;
 }
 
-.family-intro-img{
-  width: 10%;
-  position: absolute;
-  left: 85%;
+.quote{
+  font-family: 'Mali', cursive;
 }
 
 .myButton {
@@ -95,6 +93,12 @@ p{
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.family-intro-img{
+  width: 18%;
+  position: absolute;
+  left: 70%;
 }
 
 
