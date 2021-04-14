@@ -1,12 +1,28 @@
 
 .title{
   font-family: 'Source Serif Pro', serif;
+  margin: 20px 0;
 }
 p{
-  font-family: 'Molengo', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
   line-height: 30px;
   font-size: 1.2rem;
 }
+.special{
+  font-weight: 600;
+}
+
+.quote{
+  font-family: 'Mali', cursive;
+}
+
+.little{
+  font-size: 1rem;
+  position: relative;
+  bottom: 10px;
+}
+
 /************TITLLE SECTION**************/
 /* navbar */
 .navbar{
@@ -104,8 +120,14 @@ left: 5%;
   padding: 10%;
 }
 
-.quote{
-  font-family: 'Mali', cursive;
+.quote-img{
+  width: 20%;
+}
+
+.quote-sep{
+  width: 10%;
+  position:relative;
+  left: 40%;
 }
 
 .myButton {
@@ -135,6 +157,27 @@ left: 5%;
   left: 70%;
 }
 
+.ssr-img{
+  width: 20%;
+  float: right;
+}
+
+.ssl-img{
+  width: 20%;
+  float: left;
+}
+
+.sep-line{
+  width: 35%;
+  position: relative;
+  left: 30%;
+}
+
+.head-img{
+  width: 20%;
+  position: relative;
+  left: 30%;
+}
 
 /********************FOOTER**************/
 #footer{
@@ -145,7 +188,7 @@ left: 5%;
 .copyright{
   padding: 1%;
   position: relative;
-  left: 40%;
+  left: 42%;
 }
 
 /**************************MEDIA QUERY*****************************/
