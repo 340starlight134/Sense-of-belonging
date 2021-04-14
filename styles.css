@@ -55,6 +55,11 @@ p{
   padding-top: 20%;
 }
 
+.au-title-img{
+  position: relative;
+  left: 150px;
+}
+
 .title-dove{
   width: 20%;
   position: absolute;
@@ -116,7 +121,7 @@ left: 5%;
 /****************SECOND SECTION***************/
 
 #second-section{
-  background-color: #e4fbff;
+  background-color: #c9ecee;
   padding: 10%;
 }
 
@@ -142,6 +147,8 @@ left: 5%;
 	padding:5px 17px;
 	text-decoration:none;
 	text-shadow:0 1px 0 #cc9f52;
+  position: relative;
+  top: 50px;
 }
 .myButton:hover {
 	background-color:#d19a58;
@@ -173,16 +180,46 @@ left: 5%;
   left: 30%;
 }
 
+.song-r{
+  width: 130px;
+  float: right;
+}
+
+.song-l{
+  width: 60px;
+  float: left;
+}
+
+#chick{
+  width: 250px;
+}
+
 .head-img{
   width: 20%;
   position: relative;
   left: 30%;
 }
 
+.an{
+  position: relative;
+  right: 170px;
+  top: 30px;
+}
+
+.han{
+  position: relative;
+  bottom: 2px;
+  right: 15px;
+}
+
+.nguyen{
+  position: relative;
+  top: 22px;
+}
 /********************FOOTER**************/
 #footer{
   color: #424642;
-  background-color: #e4fbff;
+  background-color: #c9ecee;
 }
 
 .copyright{
