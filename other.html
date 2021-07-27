@@ -27,25 +27,42 @@
   <section id="title-section">
     <div class="container-fluid">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="storyline.html">Story line</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="other.html">More<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About us</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-other navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="storyline.html">Storyline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="other.html">More</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="videos.html">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+
+              <input onclick="drop()" class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+              <div id="myDropdown" class="dropdown dropdown-content">
+               <a href="#quotes">Quotes <br></a>
+               <a href="#short-stories">Short Stories</a>
+               <a href="#books">Books <br></a>
+               <a href="#films">Films</a>
+               <a href="#crafts">Crafts</a>
+             </div>
+
+            </form>
+          </div>
         </div>
       </nav>
    </div>
@@ -69,6 +86,7 @@
 
   <section id="second-section">
 
+  <div id="quotes">
     <h1 class="title">Quotes to think </h1>
      <p class="little">
       Quotes are melodies in litterature, a way of talking of long matters in a short amount of time<br>
@@ -96,226 +114,243 @@
       "When you reach the end of your rope, tie a knot in it and hang on."
       <img src="2.png" class="quote-img">
     </p>
+  </div>
     <img src="line.gif" class="sep-line">
 
-    <h1 class="title">A few cute short stories</h1>
-   <p class="little">
-     <br>Family is where memories are held, where love and tolerance are preserved.
-     While you read these short stories you may be able to see your family's value if you look at the bright side of things.
-     <br><span class="special">Tiếng Việt</span> <br>
-     Gia đình là chốn đi về của ký ức, là bến đỗ neo giữ yêu thương của đời người.
-     Đọc mấy mẩu truyện ngắn dưới đây, có lẽ bạn sẽ biết trân quý tổ ấm của mình hơn.
-   </p>
-   <img src="line.gif" class="sep-line">
-   <h4 class="title">Adopted child / Con nuôi</h4>
-   <img src="30.gif" class="ssr-img">
-   <p>
-     A teacher shows the whole class the picture of a family. There is a boy in the
-     picture who has a different skin color from everyone else. Another boy stands up,
-     asks: “Is he an adopted child, teacher?”. The teacher smiles, says: “How do you know?”.
-     That boy shakes his head, then sits down. Suddenly, a girl shyly says: “Teacher, I know a lot a
-     bout adopted children!”. The whole class starts to whisper and another child asks:
-     “So, what is an adopted child?”. The girl confidently stands right up, throws out her
-     chest, says: “If you are an adopted child, you are made from your mother's heart, not her stomach!”
-     <br><span class="special">Tiếng Việt</span> <br>
-     Cô giáo cho cả lớp xem bức ảnh chụp một gia đình. Có một cậu bé trong ảnh
-     có màu da khác với mọi người. Một bạn nam đứng dậy: “Thưa cô, cậu ấy là
-     con nuôi phải không ạ?”. Cô khẽ mỉm cười: “Tại sao con biết?”. Bạn nam lắc đầu,
-    tiu nghỉu ngồi xuống. Một cô bé bẽn lẽn thưa: “Thưa cô, con biết rất nhiều về con nuôi ạ!”.
-     Có tiếng vặn hỏi ở dưới lớp: “Thế con nuôi là gì?”. Cô bé đứng thẳng dậy, ưỡn ngực,
-     vẻ mặt tươi tỉnh, hai bím tóc lúc lắc, lúc lắc, dõng dạc nói: “Con nuôi nghĩa là mình lớn
-     lên từ trong tim mẹ chứ không phải từ trong bụng!”.
-   </p>
-   <img src="line.gif" class="sep-line">
-   <h4 class="title">A parent's love / Tình yêu của bố</h4>
-   <img src="10.png" class="ssl-img">
-   <p>
-     My Dad has Alzheimer’s, his memory becomes poorer day by day, he cannot even
-     recognize me as his daughter. One day, my Dad and I went to a restaurant.
-     In the end, there were 2 dumplings left on the plate. He immediately took both
-     and put them in his pocket. I was ecstatic. Then he said: “These two are for
-     my daughter, she likes dumpling best.” Time flows, parents will become old, and get sick.
-     They can forget everything, but the love for their children is always there, forever...
-     <br><span class="special">Tiếng Việt</span> <br>
-     Bố tôi mắc chứng Alzheimer, trí nhớ càng ngày càng kém, đến con trai mình cũng
-     chẳng nhận ra. Một hôm tôi đưa ông đi ăn hàng, trong đĩa còn lại hai cái bánh bao, bố
-     liền cầm lấy cho vào túi. Tôi rất sững sờ. Rồi bố nói: "Hai cái này để dành cho
-     con trai tôi, nó thích ăn nhất cái này." Thời gian trôi đi, cha mẹ rồi cũng sẽ già,
-     và đổ bệnh. Có lúc, dù bản thân họ chẳng nhớ, quên đi tất cả nhưng tình yêu đối
-     với con cái thì luôn thường trực…
-   </p>
-   <img src="line.gif" class="sep-line">
+   <div id="short-stories">
+     <h1 class="title">A few cute short stories</h1>
+     <p class="little">
+       <br>Family is where memories are held, where love and tolerance are preserved.
+       While you read these short stories you may be able to see your family's value if you look at the bright side of things.
+       <br><span class="special">Tiếng Việt</span> <br>
+       Gia đình là chốn đi về của ký ức, là bến đỗ neo giữ yêu thương của đời người.
+       Đọc mấy mẩu truyện ngắn dưới đây, có lẽ bạn sẽ biết trân quý tổ ấm của mình hơn.
+     </p>
+     <img src="line.gif" class="sep-line">
+     <h4 class="title">Adopted child / Con nuôi</h4>
+     <img src="30.gif" class="ssr-img">
+     <p>
+       A teacher shows the whole class the picture of a family. There is a boy in the
+       picture who has a different skin color from everyone else. Another boy stands up,
+       asks: “Is he an adopted child, teacher?”. The teacher smiles, says: “How do you know?”.
+       That boy shakes his head, then sits down. Suddenly, a girl shyly says: “Teacher, I know a lot a
+       bout adopted children!”. The whole class starts to whisper and another child asks:
+       “So, what is an adopted child?”. The girl confidently stands right up, throws out her
+       chest, says: “If you are an adopted child, you are made from your mother's heart, not her stomach!”
+       <br><span class="special">Tiếng Việt</span> <br>
+       Cô giáo cho cả lớp xem bức ảnh chụp một gia đình. Có một cậu bé trong ảnh
+       có màu da khác với mọi người. Một bạn nam đứng dậy: “Thưa cô, cậu ấy là
+       con nuôi phải không ạ?”. Cô khẽ mỉm cười: “Tại sao con biết?”. Bạn nam lắc đầu,
+      tiu nghỉu ngồi xuống. Một cô bé bẽn lẽn thưa: “Thưa cô, con biết rất nhiều về con nuôi ạ!”.
+       Có tiếng vặn hỏi ở dưới lớp: “Thế con nuôi là gì?”. Cô bé đứng thẳng dậy, ưỡn ngực,
+       vẻ mặt tươi tỉnh, hai bím tóc lúc lắc, lúc lắc, dõng dạc nói: “Con nuôi nghĩa là mình lớn
+       lên từ trong tim mẹ chứ không phải từ trong bụng!”.
+     </p>
+     <img src="line.gif" class="sep-line">
+     <h4 class="title">A parent's love / Tình yêu của bố</h4>
+     <img src="10.png" class="ssl-img">
+     <p>
+       My Dad has Alzheimer’s, his memory becomes poorer day by day, he cannot even
+       recognize me as his daughter. One day, my Dad and I went to a restaurant.
+       In the end, there were 2 dumplings left on the plate. He immediately took both
+       and put them in his pocket. I was ecstatic. Then he said: “These two are for
+       my daughter, she likes dumpling best.” Time flows, parents will become old, and get sick.
+       They can forget everything, but the love for their children is always there, forever...
+       <br><span class="special">Tiếng Việt</span> <br>
+       Bố tôi mắc chứng Alzheimer, trí nhớ càng ngày càng kém, đến con trai mình cũng
+       chẳng nhận ra. Một hôm tôi đưa ông đi ăn hàng, trong đĩa còn lại hai cái bánh bao, bố
+       liền cầm lấy cho vào túi. Tôi rất sững sờ. Rồi bố nói: "Hai cái này để dành cho
+       con trai tôi, nó thích ăn nhất cái này." Thời gian trôi đi, cha mẹ rồi cũng sẽ già,
+       và đổ bệnh. Có lúc, dù bản thân họ chẳng nhớ, quên đi tất cả nhưng tình yêu đối
+       với con cái thì luôn thường trực…
+     </p>
+     <img src="line.gif" class="sep-line">
 
-   <h4 class="title">The jade bracelet / Vòng cẩm thạch</h4>
-   <img src="b.gif" class="ssr-img">
-   <p>
-     Dad had always wanted to give Mom a nice jade bracelet. Mom’s hand was fair
-     and smooth, looking very nice with a bracelet. But every time Dad intended to
-     buy one, Mom would prevent him from doing it. She said: “Let's save money to buy
-     books for the kids". Time flew, and Mom's hand turned brown, calloused
-     because of the lofty sacrifice she gave to her family. Years later, my sister
-     and I have grown up, had family, and even had children. In all of those years,
-     mother still hadn’t worn a Jade bracelet, not once. <br> <br>
-     On Mom's birthday, we gave her a beautiful Jade bracelet. She was so happy,
-     she kept on chuckling. However, she put it in a wardrobe, only looking at it
-     sometimes for a little while. I asked Mom: “Why don't you wear it?”. Mom smiled:
-     “I'm getting old, and my hands are getting shaky, I'm happy with just
-     looking at it!”. At that point, my sister and I looked at each other and burst into tears...
+     <h4 class="title">The jade bracelet / Vòng cẩm thạch</h4>
+     <img src="b.gif" class="ssr-img">
+     <p>
+       Dad had always wanted to give Mom a nice jade bracelet. Mom’s hand was fair
+       and smooth, looking very nice with a bracelet. But every time Dad intended to
+       buy one, Mom would prevent him from doing it. She said: “Let's save money to buy
+       books for the kids". Time flew, and Mom's hand turned brown, calloused
+       because of the lofty sacrifice she gave to her family. Years later, my sister
+       and I have grown up, had family, and even had children. In all of those years,
+       mother still hadn’t worn a Jade bracelet, not once. <br> <br>
+       On Mom's birthday, we gave her a beautiful Jade bracelet. She was so happy,
+       she kept on chuckling. However, she put it in a wardrobe, only looking at it
+       sometimes for a little while. I asked Mom: “Why don't you wear it?”. Mom smiled:
+       “I'm getting old, and my hands are getting shaky, I'm happy with just
+       looking at it!”. At that point, my sister and I looked at each other and burst into tears...
 
-     <br><span class="special">Tiếng Việt</span> <br>
-     Cha luôn ao ước tặng mẹ một chiếc vòng cẩm thạch. Tay mẹ trắng nõn nà, đeo
-     vòng rất đẹp. Nhưng mỗi khi cha định mua, mẹ lại can. Mẹ bảo: “Để tiền ấy mua
-     sách vở cho tụi nhỏ”. Bao nhiêu năm qua đi, bàn tay mẹ đã sạm đen, chai sạn
-     vì sương gió cuộc đời. Bao nhiêu năm qua đi, chị em tôi cũng trưởng thành cả,
-     rồi lập gia đình, rồi sinh con. Bao nhiêu năm ấy, mẹ vẫn chưa một lần đeo
-     vòng cẩm thạch. <br> <br>
-     Ngày sinh nhật mẹ, chúng tôi mua tặng bà một chiếc vòng đẹp nhất. Mẹ vui
-     lắm, cứ cười mãi. Bà cất kỹ trong tủ, chỉ thi thoảng mới mang ra ngắm nghía
-     một lát. Tôi hỏi: “Sao mẹ không đeo?”. Mẹ nheo mắt cười: “Mẹ già rồi, tay
-     run lắm, chỉ cần nhìn cũng thấy vui”. Chị em tôi chẳng ai bảo ai, lặng lẽ
-     đưa mắt nhìn nhau mà rưng rưng lệ.
-   </p>
+       <br><span class="special">Tiếng Việt</span> <br>
+       Cha luôn ao ước tặng mẹ một chiếc vòng cẩm thạch. Tay mẹ trắng nõn nà, đeo
+       vòng rất đẹp. Nhưng mỗi khi cha định mua, mẹ lại can. Mẹ bảo: “Để tiền ấy mua
+       sách vở cho tụi nhỏ”. Bao nhiêu năm qua đi, bàn tay mẹ đã sạm đen, chai sạn
+       vì sương gió cuộc đời. Bao nhiêu năm qua đi, chị em tôi cũng trưởng thành cả,
+       rồi lập gia đình, rồi sinh con. Bao nhiêu năm ấy, mẹ vẫn chưa một lần đeo
+       vòng cẩm thạch. <br> <br>
+       Ngày sinh nhật mẹ, chúng tôi mua tặng bà một chiếc vòng đẹp nhất. Mẹ vui
+       lắm, cứ cười mãi. Bà cất kỹ trong tủ, chỉ thi thoảng mới mang ra ngắm nghía
+       một lát. Tôi hỏi: “Sao mẹ không đeo?”. Mẹ nheo mắt cười: “Mẹ già rồi, tay
+       run lắm, chỉ cần nhìn cũng thấy vui”. Chị em tôi chẳng ai bảo ai, lặng lẽ
+       đưa mắt nhìn nhau mà rưng rưng lệ.
+     </p>
+   </div>
+
    <img src="line.gif" class="sep-line">
    <img src="book.gif" class="head-img">
 
-   <h1 class="title">A book for an adventure</h1>
-    <p class="little">
-     Families are complex. They can be all the things: giving, loving, spiteful,
-     bitter, compassionate, competitive, emotional, disastrous, wonderful… you get
-     the idea! And when you have a really great family dynamic in a book, it can
-     be a pretty intense reading experience. Here are some of our favorite books
-     about family that showcase just how unique they can be. <br>
-   </p>
-   <ul>
-     <li>
-       <a href="https://cafebiz.vn/con-nguoi-nhat-dinh-phai-hoc-cach-doi-thoai-voi-tam-hon-doc-nhieu-sach-cham-van-dong-20200602194436996.chn">
-       A reading encouragement
-      </a>
-     </li>
-     <li>Không gia đình</li>
-     <li>Mẹ, thơm một cái</li>
-     <li>Hãy chăm sóc mẹ</li>
-     <li>Ngoài kia giông bão, lòng mẹ bình yên </li>
-     <li>Một lít nước mắt</li>
-     <li>Kẻ trộm sách</li>
-     <li>Chú chó gác sao </li>
-     <li>
-        <a href="https://www.intentionalhomeschooling.com/family-read-alouds/">
-         Another list of books for those passionate readers
-       </a>
-     </li>
+    <div id="books">
+      <h1 class="title">A book for an adventure</h1>
+       <p class="little">
+        Families are complex. They can be all the things: giving, loving, spiteful,
+        bitter, compassionate, competitive, emotional, disastrous, wonderful… you get
+        the idea! And when you have a really great family dynamic in a book, it can
+        be a pretty intense reading experience. Here are some of our favorite books
+        about family that showcase just how unique they can be. <br>
+      </p>
+      <ul>
+        <li>
+          <a href="https://cafebiz.vn/con-nguoi-nhat-dinh-phai-hoc-cach-doi-thoai-voi-tam-hon-doc-nhieu-sach-cham-van-dong-20200602194436996.chn">
+          A reading encouragement
+         </a>
+        </li>
+        <li>Không gia đình</li>
+        <li>Mẹ, thơm một cái</li>
+        <li>Hãy chăm sóc mẹ</li>
+        <li>Ngoài kia giông bão, lòng mẹ bình yên </li>
+        <li>Một lít nước mắt</li>
+        <li>Kẻ trộm sách</li>
+        <li>Chú chó gác sao </li>
+        <li>
+           <a href="https://www.intentionalhomeschooling.com/family-read-alouds/">
+            Another list of books for those passionate readers
+          </a>
+        </li>
+    </div>
    </ul> <img src="line.gif" class="sep-line">
 
-   <h1 class="title">Films for non-book-lovers</h1>
-     <p class="little">
-     We all know that for some people, books are sleeping pills, but we want everyone
-     to be able to enjoy a few adventures, so here we are, with a few movies, picked out for you. <br>
-    </p>
-    <ul>
-      <li>Miracle in cell no.7</li>
-      <li>Coco</li>
-      <img src="f.gif" class="song-r">
-      <li>Inside out</li>
-      <li>If anything happens i love you</li>
-      <li>Song of the sea</li>
-    </ul>
+   <div id="films">
+     <h1 class="title">Films for non-book-lovers</h1>
+       <p class="little">
+       We all know that for some people, books are sleeping pills, but we want everyone
+       to be able to enjoy a few adventures, so here we are, with a few movies, picked out for you. <br>
+      </p>
+      <ul>
+        <li>Miracle in cell no.7</li>
+        <li>Coco</li>
+        <img src="f.gif" class="song-r">
+        <li>Inside out</li>
+        <li>If anything happens i love you</li>
+        <li>Song of the sea</li>
+      </ul>
+   </div>
    <img src="line.gif" class="sep-line">
 
-   <h1 class="title">And lastly, a song for a comfy zone</h1>
-   <img src="57.gif" class="song-l">
-    <p class="little">
-     Music is a way of communicating without any language barriers.
-     Even if we don't allways understand the lyrics of a song, we will allways
-     be able to feel the meaning of it. With these songs, we hope you will find
-     some comfort in your hard times. <br>
-   </p>
-   <ul>
-     <li>The first song is one of the factors that inspired us to make this website:
-       <a href="https://www.youtube.com/watch?v=owKDLW-FvTE">
-        Dango Daikasoku.
-      </a>
-     </li>
-     <li>The song <a href="https://www.youtube.com/watch?v=pU3O9Lnp-Z0">Nước Ngoài</a>
-    is a song who talks about people who are far from their families, and miss's them badly.
-     </li>
-     <li>
-       Our third song <a href="https://www.youtube.com/watch?v=GYxggtZberM">Cha già
-       rồi đúng không?</a>
-       is a song from the movie "Bố Già" who shows us that our parents don't have that much time left here.
-     </li>
-     <img src="56.gif" class="song-r">
-     <li>
-       The next song <a href="https://www.youtube.com/watch?v=1Y0jeAPH_Pc">Cha và con gái</a>
-       is a song who talks about a father in his toddler's eyes.
-     </li>
-     <li>
-       The lyrics of <a href="https://www.youtube.com/watch?v=DQDu60-C-ns">Thưa mẹ con đi</a>
-       narrate's a child saying "thank you", and "sorry" to
-       his mother for all the sacrifice's she did for him.
-     </li>
-     <li>
-       And a selection of a few more:
-       <a href="https://www.youtube.com/watch?v=pFSQh_5QE40">Lớn rồi mà còn khóc nhè</a>,
-       <a href="https://www.youtube.com/watch?v=vTJdVE_gjI0">Đi về nhà</a>,
-       <a href="https://www.youtube.com/watch?v=KP_XkN2v7OM">Remember me</a>,
-       <a href="https://www.youtube.com/watch?v=e0MosAX9E6A">Chuyện nhà bé thôi, không đi về</a>,
-       <a href="https://www.youtube.com/watch?v=xG94wlZai1I">Nứt</a> and
-       <a href="https://www.youtube.com/watch?v=7wtfhZwyrcc">Believer</a>
-     </li>
-   </ul>
+    <div id="songs">
+      <h1 class="title">And lastly, a song for a comfy zone</h1>
+      <img src="57.gif" class="song-l">
+       <p class="little">
+        Music is a way of communicating without any language barriers.
+        Even if we don't allways understand the lyrics of a song, we will allways
+        be able to feel the meaning of it. With these songs, we hope you will find
+        some comfort in your hard times. <br>
+      </p>
+      <ul>
+        <li>The first song is one of the factors that inspired us to make this website:
+          <a href="https://www.youtube.com/watch?v=owKDLW-FvTE">
+           Dango Daikasoku.
+         </a>
+        </li>
+        <li>The song <a href="https://www.youtube.com/watch?v=pU3O9Lnp-Z0">Nước Ngoài</a>
+       is a song who talks about people who are far from their families, and miss's them badly.
+        </li>
+        <li>
+          Our third song <a href="https://www.youtube.com/watch?v=GYxggtZberM">Cha già
+          rồi đúng không?</a>
+          is a song from the movie "Bố Già" who shows us that our parents don't have that much time left here.
+        </li>
+        <img src="56.gif" class="song-r">
+        <li>
+          The next song <a href="https://www.youtube.com/watch?v=1Y0jeAPH_Pc">Cha và con gái</a>
+          is a song who talks about a father in his toddler's eyes.
+        </li>
+        <li>
+          The lyrics of <a href="https://www.youtube.com/watch?v=DQDu60-C-ns">Thưa mẹ con đi</a>
+          narrate's a child saying "thank you", and "sorry" to
+          his mother for all the sacrifice's she did for him.
+        </li>
+        <li>
+          And a selection of a few more:
+          <a href="https://www.youtube.com/watch?v=pFSQh_5QE40">Lớn rồi mà còn khóc nhè</a>,
+          <a href="https://www.youtube.com/watch?v=vTJdVE_gjI0">Đi về nhà</a>,
+          <a href="https://www.youtube.com/watch?v=KP_XkN2v7OM">Remember me</a>,
+          <a href="https://www.youtube.com/watch?v=e0MosAX9E6A">Chuyện nhà bé thôi, không đi về</a>,
+          <a href="https://www.youtube.com/watch?v=xG94wlZai1I">Nứt</a> and
+          <a href="https://www.youtube.com/watch?v=7wtfhZwyrcc">Believer</a>
+        </li>
+      </ul>
+    </div>
 
-   <h1 class="title">Finally, some handmade crafts for old and young</h1>
-   <img src="h3.gif" class="song-l">
-     <p class="little">
-       Remember when you where small and loved crafts? Relive it now or offer to your
-       community. You're never too old, or too young to make crafts <br>
-    </p>
-   <ul>
-     <li class="title">
-       Some Easy Peasy Origamis:
-     </li>
-     <li>
-       <a href="https://www.youtube.com/watch?v=Jj0F-vdN18w&list=PLJDBtQD1ZbJDES0TCP54v85Mh60fX4dwn&index=11&t=304s">
-         A rose
-       </a>
-     </li>
-     <img src="h1.gif" class="song-r" id="chick">
-     <li>
-        <a href="https://www.youtube.com/watch?v=Z-BIL6p1Te8&list=PLJDBtQD1ZbJDES0TCP54v85Mh60fX4dwn&index=10">
-          A heart
+  <div id="crafts">
+    <h1 class="title">Finally, some handmade crafts for old and young</h1>
+    <img src="h3.gif" class="song-l">
+      <p class="little">
+        Remember when you where small and loved crafts? Relive it now or offer to your
+        community. You're never too old, or too young to make crafts <br>
+     </p>
+    <ul>
+      <li class="title">
+        Some Easy Peasy Origamis:
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=Jj0F-vdN18w&list=PLJDBtQD1ZbJDES0TCP54v85Mh60fX4dwn&index=11&t=304s">
+          A rose
         </a>
-     </li>
-     <li>
-        <a href="https://www.youtube.com/watch?v=cZdO2e8K29o">
-          A Butterfly
-        </a>
-     </li>
-     <li class="title">
-       A Few Crafts:
-     </li>
-     <li>
-        <a href="https://www.youtube.com/watch?v=_IiRqqSsprg">
-          School crafts
-        </a>
-     </li>
-     <li>
-        <a href="https://www.youtube.com/watch?v=nyc7JMSfCzQ">
-          Soap crafts
-        </a>
-     </li>
-   </ul>
-   <a href="about-us.html" class="myButton">next→</a>
+      </li>
+      <img src="h1.gif" class="song-r" id="chick">
+      <li>
+         <a href="https://www.youtube.com/watch?v=Z-BIL6p1Te8&list=PLJDBtQD1ZbJDES0TCP54v85Mh60fX4dwn&index=10">
+           A heart
+         </a>
+      </li>
+      <li>
+         <a href="https://www.youtube.com/watch?v=cZdO2e8K29o">
+           A Butterfly
+         </a>
+      </li>
+      <li class="title">
+        A Few Crafts:
+      </li>
+      <li>
+         <a href="https://www.youtube.com/watch?v=_IiRqqSsprg">
+           School crafts
+         </a>
+      </li>
+      <li>
+         <a href="https://www.youtube.com/watch?v=nyc7JMSfCzQ">
+           Soap crafts
+         </a>
+      </li>
+    </ul>
+  </div>
+
+   <a href="videos.html" class="myButton">next→</a>
   </section>
 
   <footer id="footer" class="footer">
-    <p class="copyright">© vioara_dream 2021</p>
+    <p class="copyright">© Sense Of Belonging 2021: made by Cossin Clara Như An, Phan Nguyễn Khả Hân, and Dặng Lê Hạnh Nguyên</p>
   </footer>
 
  <!-- *****************************FINAL SCRIPTS******************************* -->
+  <script src="index.js" charset="utf-8"></script>
   <!--Bootstrap JavaScript-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- jquery js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
 
 </body>
 

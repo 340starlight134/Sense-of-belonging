@@ -26,10 +26,9 @@ p{
 /************TITLLE SECTION**************/
 /* navbar */
 .navbar{
-  padding: 0 0 4rem 0;
-  position:fixed;
   color: #3b5360;
-  border-radius: 10px;
+  padding: 0;
+  bottom: 180px;
 }
 
 .nav-link{
@@ -37,6 +36,30 @@ p{
   font-family: 'Molengo', sans-serif;
 }
 
+.navbar-other{
+  position: relative;
+  top: -55px;
+}
+
+/* search dropdown */
+a{
+  color:#125D98;
+}
+
+.search-bar{
+  position: relative;
+  top: 0;
+}
+
+.dropdown {
+  background-color: white;
+  border-radius:10%;
+  padding: 3%;
+  position: relative;
+  top: 40px;
+  right: 235px;
+  display: inline-block;
+}
 /* title section */
 
 #title-section{
@@ -52,7 +75,7 @@ p{
 }
 
 .container-fluid {
-  padding-top: 20%;
+  padding-top: 8%;
 }
 
 .au-title-img{
@@ -223,7 +246,7 @@ left: 5%;
 .copyright{
   padding: 1%;
   position: relative;
-  left: 42%;
+  left: 12%;
 }
 
 /**************************MEDIA QUERY*****************************/
