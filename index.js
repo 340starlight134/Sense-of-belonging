@@ -11,7 +11,7 @@ function undrop() {
 
 function search() {
   // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
+  var input, filter, ul, li, a, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
@@ -27,5 +27,4 @@ function search() {
       li[i].style.display = "none";
     }
   }
-  document.getElementById("navbarCollapse").focus();
 }
