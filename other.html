@@ -15,7 +15,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!-- css stylesheet -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-other.css">
+     <script src="index.js" charset="utf-8"></script>
+
 
 </head>
 
@@ -52,14 +54,15 @@
             </ul>
             <form class="d-flex">
 
-              <input onclick="drop()" class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
-              <div id="myDropdown" class="dropdown dropdown-content">
-               <a href="#quotes">Quotes <br></a>
-               <a href="#short-stories">Short Stories</a>
-               <a href="#books">Books <br></a>
-               <a href="#films">Films</a>
-               <a href="#crafts">Crafts</a>
-             </div>
+              <input id="myInput" onclick="drop()" class="form-control me-2 search-bar" type="search" placeholder="Search">
+              <button onclick="search()" class="btn btn-outline-success">Search</button>
+              <ul id="myUL" class="dropdown dropdown-content">
+               <li><a href="#quotes">Quotes</a></li>
+               <li><a href="#short-stories">Short Stories</a></li>
+               <li><a href="#books">Books</a></li>
+               <li><a href="#films">Films</a></li>
+               <li><a href="#crafts">Crafts</a></li>
+             </ul>
 
             </form>
           </div>
@@ -70,21 +73,21 @@
     <!-- Title -->
     <div class="row">
       <div class="col-lg-6">
-        <h1 class="big-heading title">A little more fun content (SOB)</h1>
-        <p class="title-footer">Handpicked just for you.</p>
+        <h1 onclick="undrop()" class="big-heading title">A little more fun content (SOB)</h1>
+        <p onclick="undrop()" class="title-footer">Handpicked just for you.</p>
       </div>
       <div class="col-lg-6">
-        <img src="16.png" class="title-sun">
-        <img src="dove.gif" class="title-dove">
-        <img src="7.png" class="title-fada">
-        <img src="5.png" class="title-walkers">
-        <img class="title-road" src="14.png">
-        <img class="title-house" src="view.gif">
+        <img onclick="undrop()" src="16.png" class="title-sun">
+        <img onclick="undrop()" src="dove.gif" class="title-dove">
+        <img onclick="undrop()" src="7.png" class="title-fada">
+        <img onclick="undrop()" src="5.png" class="title-walkers">
+        <img onclick="undrop()" class="title-road" src="14.png">
+        <img onclick="undrop()" class="title-house" src="view.gif">
       </div>
     </div>
   </section>
 
-  <section id="second-section">
+  <section onclick="undrop()" id="second-section">
 
   <div id="quotes">
     <h1 class="title">Quotes to think </h1>
@@ -339,18 +342,18 @@
   </section>
 
   <footer id="footer" class="footer">
-    <p class="copyright">© Sense Of Belonging 2021: made by Cossin Clara Như An, Phan Nguyễn Khả Hân, and Dặng Lê Hạnh Nguyên</p>
+    <p class="copyright">© Sense Of Belonging 2021</p>
   </footer>
 
  <!-- *****************************FINAL SCRIPTS******************************* -->
-  <script src="index.js" charset="utf-8"></script>
+
   <!--Bootstrap JavaScript-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <!-- jquery js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="index.js" charset="utf-8"></script>
+
 
 </body>
 
