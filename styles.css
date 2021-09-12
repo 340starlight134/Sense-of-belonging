@@ -38,7 +38,7 @@ p{
 
 .navbar-other{
   position: relative;
-  top: -55px;
+  top: -180px;
 }
 
 /* search dropdown */
@@ -48,7 +48,7 @@ a{
 
 .search-bar{
   position: relative;
-  top: 0;
+  top: px;
 }
 
 .dropdown {
@@ -56,9 +56,10 @@ a{
   border-radius:10%;
   padding: 3%;
   position: relative;
-  top: 40px;
-  right: 235px;
+  top: 100px;
+  right: 270px;
   display: inline-block;
+  width: 200px;
 }
 /* title section */
 

@@ -12,9 +12,9 @@ function undrop() {
 function search() {
   // Declare variables
   var input, filter, ul, li, a, txtValue;
-  input = document.getElementById('myInput');
+  input = document.getElementById("searchBar");
   filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
+  ul = document.getElementById("List");
   li = ul.getElementsByTagName('li');
 
   // Loop through all list items, and hide those who don't match the search query
